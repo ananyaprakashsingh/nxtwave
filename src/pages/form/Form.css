@@ -88,6 +88,7 @@ input {
 }
 .inp-select {
   width: 110%;
+  background-color: white;
 }
 .back-btn {
   margin: 22px 69px;
@@ -97,8 +98,12 @@ input {
   font-size: 12px;
   line-height: 16px;
   color: #7e858e;
+  cursor: pointer;
 }
 .back-lt {
   color: #171f46;
   font-size: 15px;
+}
+.txt-area {
+  resize: none;
 }

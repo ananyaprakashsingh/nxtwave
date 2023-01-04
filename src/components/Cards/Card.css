@@ -1,114 +1,49 @@
-.card {
-  box-sizing: border-box;
-
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-
-  background: #ffffff;
-
-  /* Light Grey/100 */
-  border: 1px solid #d7dfe9;
-  border-radius: 4px;
+.cardHead {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-
-.card-icon {
-  box-sizing: border-box;
-
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-
-  /* General/White */
-  background: #ffffff;
-
-  /* Light Grey/100 */
+.cardImg img {
+  height: 44px;
+  width: 44px;
   border: 2px solid #d7dfe9;
   border-radius: 4px;
+  margin-right: 16px;
+  padding: 5px;
 }
 
+.card-link {
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #0b69ff;
+  margin-top: 20px;
+}
 .card-title {
-  /* Dropbox, Inc. */
-
-  position: absolute;
-  width: 99px;
-  height: 24px;
-  left: 84px;
-  top: 24px;
-
-  /* Product - H5 ∙ 16|24 / Medium */
   font-family: "HK Grotesk";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-
-  /* identical to box height, or 150% */
-
-  /* General/Dark blue */
-  color: #171f46;
+  line-height: 2px;
 }
-
 .card-subtitle {
-  position: absolute;
-  width: 82px;
-  height: 16px;
-  left: 84px;
-  top: 52px;
-
-  /* Product - H6 ∙ 12|16 / Regular */
   font-family: "HK Grotesk";
   font-style: normal;
+  color: #7e858e;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
-
-  /* identical to box height, or 133% */
-
-  /* Grey/100 */
-  color: #7e858e;
 }
-
-.card-url {
-  position: absolute;
-  width: 121px;
-  height: 24px;
-  left: 24px;
-  top: 88px;
-
-  /* Product - Paragraph ∙ 14|24 / Regular */
+.card-desc {
   font-family: "HK Grotesk";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
+  margin-top: 20px;
   line-height: 24px;
 
-  /* identical to box height, or 171% */
-
-  /* Main / Blue - Default */
-  color: #0b69ff;
-}
-
-.card-body {
-  position: absolute;
-  height: 24px;
-  left: 24px;
-  right: 24px;
-  top: 120px;
-
-  /* Product - Paragraph ∙ 14|24 / Regular */
-  font-family: "HK Grotesk";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-
-  /* identical to box height, or 171% */
-
-  /* Grey/100 */
   color: #7e858e;
 }
