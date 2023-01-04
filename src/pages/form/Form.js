@@ -3,23 +3,48 @@ import './Form.css'
 import form_img from '../../assets/form-img.svg'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 function Form() {
     const navigate = useNavigate();
     const [item, setItem] = useState({ title: '', link: '', url: '', tag: '', category: '', description: '' })
     const handleSubmit = async () => {
         try {
             const res = await axios.get('https://media-content.ccbp.in/website/react-assignment/add_resource.json', item);
-            console.log(res);
+            console.log("Res", res);
+            toast.success('Added Successfully!', {
+                position: "top-right",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light",
+            });
         } catch (err) {
+            toast("Failed!");
             console.log(err.response);
         }
 
     }
 
-    return (
+    return (<><ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+    />
         <div className='form'>
+
             <div className='form-body dv-inp'>
-                <div className='back-btn' onClick={()=>navigate(-1)}><span className='back-lt'>&lt;</span> Users</div>
+                <div className='back-btn' onClick={() => navigate(-1)}><span className='back-lt'>&lt;</span> Users</div>
                 <div className='form-container'>
 
                     <div className='item-details'>Item Details</div>
@@ -43,7 +68,7 @@ function Form() {
                 <img src={form_img} />
             </div>
         </div>
-
+    </>
     )
 }
 
