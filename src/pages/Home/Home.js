@@ -36,7 +36,7 @@ function Home() {
       <div className="bg">
         <Tabs activeClass={activeClass} setActiveClass={setActiveClass} />
         <SearchBar search={search} setSearch={setSearch} />
-        {loading ? <h2>Loading...</h2> : <Items items={filteredItems} />}</div>
+        {loading ? <h2 className="center">Loading...</h2> : <Items items={filteredItems} />}</div>
     </div>
   );
 }
