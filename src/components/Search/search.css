@@ -1,11 +1,11 @@
 .input-icons i {
   position: absolute;
-  left: 10%;
+  left: 11%;
 }
 
 .input-icons {
   width: 55%;
-  margin: 32px 10%;
+  margin: 32px 11%;
 }
 
 .icon {
@@ -22,4 +22,10 @@
   text-align: left;
   border: 1px solid #d7dfe9;
   border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+  .input-icons {
+    width: 80%;
+  }
 }

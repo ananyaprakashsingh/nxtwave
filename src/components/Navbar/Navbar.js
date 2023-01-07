@@ -9,7 +9,8 @@ const Navbar = () => {
     <nav className="navbar">
       {/* LOGO */}
       <div className="logo">
-        <img src={Logo} />
+        <NavLink to={'/'}>
+          <img src={Logo} /></NavLink>
       </div>
       {/* NAVIGATION MENU */}
       <ul className="nav-links">
@@ -26,9 +27,9 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li className="nav-item">
-            <a href="/">
+            <NavLink to="/login">
               <img src={Person} className="nav-circle" />
-            </a>
+            </NavLink>
           </li>
         </div>
       </ul>

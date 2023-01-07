@@ -47,3 +47,10 @@
 
   color: #7e858e;
 }
+
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 13px;
+    line-height: normal;
+  }
+}
