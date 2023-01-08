@@ -1,7 +1,5 @@
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-import logo from './logo.svg';
 import './App.css';
-import Card from './components/Cards/Card';
 import Form from './pages/form/Form';
 import Navbar from './components/Navbar/Navbar';
 import Home from './pages/Home/Home';

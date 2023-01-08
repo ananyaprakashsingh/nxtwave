@@ -3,9 +3,8 @@ import Card from "../Cards/Card";
 import Pagination from "../Pagination/Pagination";
 import "./items.css";
 
-const Items = ({ items }) => {
+const Items = ({ items ,page, setPage}) => {
   let n = Math.ceil(items.length / 6);
-  const [page, setPage] = useState(1);
   let k = (page - 1) * 6;
   return (
     <>
