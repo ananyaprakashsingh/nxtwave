@@ -67,6 +67,7 @@
 
 @media (min-width: 1001px) {
   .card {
+    max-width: 31%;
     flex: 1 0 31%;
   }
 
