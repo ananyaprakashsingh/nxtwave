@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/nxtwave/static/css/main.010ab5d8.css",
-    "main.js": "/nxtwave/static/js/main.a7751588.js",
+    "main.css": "/nxtwave/static/css/main.f9a42177.css",
+    "main.js": "/nxtwave/static/js/main.e081d05c.js",
     "static/js/787.16ff0b2d.chunk.js": "/nxtwave/static/js/787.16ff0b2d.chunk.js",
     "static/media/form-img.svg": "/nxtwave/static/media/form-img.41e2b34d16da073ab178599896a98554.svg",
     "static/media/person.svg": "/nxtwave/static/media/person.ef67559bf7d6d9656cab7b804614279b.svg",
     "static/media/login.svg": "/nxtwave/static/media/login.3f99ccb6df0f5c88b08abb7fcd39ecef.svg",
-    "static/media/logo.svg": "/nxtwave/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/logo.svg": "/nxtwave/static/media/logo.bd9f808d2f591cd41099572eebc58b3a.svg",
     "index.html": "/nxtwave/index.html",
-    "main.010ab5d8.css.map": "/nxtwave/static/css/main.010ab5d8.css.map",
-    "main.a7751588.js.map": "/nxtwave/static/js/main.a7751588.js.map",
+    "main.f9a42177.css.map": "/nxtwave/static/css/main.f9a42177.css.map",
+    "main.e081d05c.js.map": "/nxtwave/static/js/main.e081d05c.js.map",
     "787.16ff0b2d.chunk.js.map": "/nxtwave/static/js/787.16ff0b2d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.010ab5d8.css",
-    "static/js/main.a7751588.js"
+    "static/css/main.f9a42177.css",
+    "static/js/main.e081d05c.js"
   ]
 }
